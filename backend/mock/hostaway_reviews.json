@@ -1,0 +1,245 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2020-08-21T22:45:14Z",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Nice apartment, great location but noisy neighbors.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 8 },
+        { "category": "location", "rating": 7 }
+      ],
+      "submittedAt": "2020-09-01T18:00:00Z",
+      "guestName": "Laura Martinez",
+      "listingName": "3C N2 B - Camden Studio Loft"
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Excellent stay! Everything was spotless.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 9 },
+        { "category": "comfort", "rating": 9 }
+      ],
+      "submittedAt": "2021-05-14T13:25:00Z",
+      "guestName": "John Smith",
+      "listingName": "1A Soho Luxury Flat"
+    },
+    {
+      "id": 7456,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Decent place but could improve on cleanliness.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 5 },
+        { "category": "communication", "rating": 7 },
+        { "category": "comfort", "rating": 6 }
+      ],
+      "submittedAt": "2021-06-02T09:45:00Z",
+      "guestName": "Amira Khan",
+      "listingName": "4B West End Apartment"
+    },
+    {
+      "id": 7457,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Amazing view, quiet neighborhood, will come again!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "location", "rating": 10 }
+      ],
+      "submittedAt": "2022-04-10T10:15:00Z",
+      "guestName": "Pierre Dupont",
+      "listingName": "Penthouse Suite - Notting Hill"
+    },
+    {
+      "id": 7458,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "The apartment was nice but the Wi-Fi was weak.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "amenities", "rating": 6 }
+      ],
+      "submittedAt": "2022-05-12T16:30:00Z",
+      "guestName": "Emily Johnson",
+      "listingName": "City Studio - Covent Garden"
+    },
+    {
+      "id": 7459,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Lovely host, smooth check-in process and clean room.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 10 },
+        { "category": "comfort", "rating": 8 }
+      ],
+      "submittedAt": "2022-07-18T12:20:00Z",
+      "guestName": "David Brown",
+      "listingName": "Modern Loft - Kensington"
+    },
+    {
+      "id": 7460,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "Average experience. The location was good but room smelled of smoke.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 4 },
+        { "category": "communication", "rating": 7 },
+        { "category": "location", "rating": 9 }
+      ],
+      "submittedAt": "2022-09-22T08:10:00Z",
+      "guestName": "Sophia Lee",
+      "listingName": "Studio Apartment - King’s Cross"
+    },
+    {
+      "id": 7461,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Good value for money and comfortable bed.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 8 },
+        { "category": "comfort", "rating": 9 }
+      ],
+      "submittedAt": "2023-01-11T14:50:00Z",
+      "guestName": "Maria Gonzalez",
+      "listingName": "East London Flat - Brick Lane"
+    },
+    {
+      "id": 7462,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Absolutely perfect stay! Great amenities and host support.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "amenities", "rating": 10 }
+      ],
+      "submittedAt": "2023-04-15T10:00:00Z",
+      "guestName": "Hannah Becker",
+      "listingName": "Luxury Apartment - Canary Wharf"
+    },
+    {
+      "id": 7463,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Cozy place but the heating system was tricky to use.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "comfort", "rating": 6 }
+      ],
+      "submittedAt": "2023-07-09T09:25:00Z",
+      "guestName": "Liam Carter",
+      "listingName": "Compact Studio - Paddington"
+    },
+    {
+      "id": 7464,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Fantastic location and friendly host, highly recommended!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 10 },
+        { "category": "location", "rating": 10 }
+      ],
+      "submittedAt": "2023-09-05T15:40:00Z",
+      "guestName": "Charlotte Evans",
+      "listingName": "Riverside View Apartment"
+    },
+    {
+      "id": 7465,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Great apartment with everything we needed. Would return.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "comfort", "rating": 8 }
+      ],
+      "submittedAt": "2024-02-21T18:05:00Z",
+      "guestName": "Lucas Meyer",
+      "listingName": "Garden Flat - Chelsea"
+    },
+    {
+      "id": 7466,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Wonderful stay, amazing host and perfect cleanliness!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "comfort", "rating": 10 }
+      ],
+      "submittedAt": "2024-06-30T11:30:00Z",
+      "guestName": "Sara Novak",
+      "listingName": "Townhouse Suite - Southbank"
+    },
+    {
+      "id": 7467,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Perfectly located apartment with great interior design.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 9 },
+        { "category": "location", "rating": 10 }
+      ],
+      "submittedAt": "2024-09-02T20:45:00Z",
+      "guestName": "Oliver Wang",
+      "listingName": "Design Loft - Shoreditch"
+    },
+    {
+      "id": 7468,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "The apartment was okay, but the check-in took too long.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 6 },
+        { "category": "communication", "rating": 5 },
+        { "category": "comfort", "rating": 6 }
+      ],
+      "submittedAt": "2024-11-10T17:15:00Z",
+      "guestName": "Isabella Rossi",
+      "listingName": "Budget Flat - Whitechapel"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+/* === Flex Living Public Property Page === */
+.public-page {
+  font-family: "Inter", sans-serif;
+  background-color: var(--flex-beige);
+  color: var(--flex-dark);
+}
+
+/* Hero / Header */
+.property-hero {
+  background-color: var(--flex-green);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  border-radius: 0 0 var(--flex-radius) var(--flex-radius);
+}
+
+.property-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.property-desc {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Summary section */
+.property-summary {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.summary-card {
+  background: var(--flex-mint);
+  border-radius: var(--flex-radius);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Reviews */
+.reviews-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.reviews-section h3 {
+  font-size: 1.6rem;
+  color: var(--flex-green);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.review-card {
+  background: white;
+  border-radius: var(--flex-radius);
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+}
+
+.review-text {
+  font-style: italic;
+  margin-bottom: 0.8rem;
+  color: var(--flex-dark);
+}
+
+.review-guest {
+  font-weight: 600;
+  color: var(--flex-green);
+}
+
+.review-date {
+  font-size: 0.85rem;
+  color: var(--flex-gray);
+  margin-top: 0.3rem;
+}

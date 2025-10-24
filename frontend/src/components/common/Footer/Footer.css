@@ -1,0 +1,84 @@
+.flex-footer {
+  background-color: rgb(40, 78, 76);
+  color: white;
+  padding: 3rem 2rem 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-column h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-column p,
+.footer-column li {
+  color: #d9e3e0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.3rem 0;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-socials {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.footer-form input,
+.footer-form select {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+.footer-form-inline {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-form button {
+  background-color: white;
+  color: rgb(40, 78, 76);
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.footer-form button:hover {
+  background-color: #eaf4f2;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 0.9rem;
+  color: #cfdedb;
+}
