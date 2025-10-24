@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { getHostawayReviews, approveReview } from "../../services/api";
 import ReviewTable from "./ReviewTable";
 import Filters from "./Filters";
@@ -45,7 +45,6 @@ const Dashboard = () => {
   };
 
   const stats = calculatePropertyStats();
-
   const itemsPerPage = 4;
   const totalPages = Math.ceil(stats.length / itemsPerPage);
   const visibleStats = stats.slice(
@@ -53,13 +52,13 @@ const Dashboard = () => {
     (pageIndex + 1) * itemsPerPage
   );
 
-  const scrollLeft = () => {
+  const scrollLeft = useCallback(() => {
     setPageIndex((prev) => (prev > 0 ? prev - 1 : prev));
-  };
+  }, []);
 
-  const scrollRight = () => {
+  const scrollRight = useCallback(() => {
     setPageIndex((prev) => (prev < totalPages - 1 ? prev + 1 : prev));
-  };
+  }, [totalPages]);
 
   useEffect(() => {
     const el = scrollRef.current;
@@ -87,7 +86,7 @@ const Dashboard = () => {
       el.removeEventListener("touchstart", onTouchStart);
       el.removeEventListener("touchend", onTouchEnd);
     };
-  }, [pageIndex, totalPages]);
+  }, [scrollLeft, scrollRight]);
 
   return (
     <div className="dashboard-container">
@@ -128,10 +127,8 @@ const Dashboard = () => {
         </button>
       </section>
 
-      {/* === Filters === */}
       <Filters reviews={reviews} setFiltered={setFiltered} />
 
-      {/* === Reviews Table === */}
       {loading ? (
         <div className="loading">Loading reviews...</div>
       ) : filtered.length > 0 ? (
