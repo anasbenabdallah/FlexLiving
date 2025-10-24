@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/reviews";
+const API_URL = "https://flex-living-f1ly.vercel.app/api/reviews";
 
 export const getHostawayReviews = () => axios.get(`${API_URL}/hostaway`);
 
