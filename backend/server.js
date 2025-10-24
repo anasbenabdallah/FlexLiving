@@ -24,6 +24,11 @@ app.use(express.json());
 //  Routes
 app.use("/api/reviews", reviewsRouter);
 
-// Start server
+// Export app for serverless; only listen locally
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
+
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
+}
+
+export default app;
